@@ -3,7 +3,7 @@
 def change(amount):
     #base cases:
     #all of 10, 12, 14 when added by 5 further can pay any amount possibly payable by coins of 7 and 5
-    assert amount<=10, "The amount is NOT payable by coins of 7 and 5."
+    assert amount >= 10, "The amount is NOT payable by coins of 7 and 5."
     if amount == 10:
         return [5,5]
     if amount == 12:
