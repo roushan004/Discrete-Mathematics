@@ -10,8 +10,12 @@ def change(amount):
         return [5,7]
     if amount == 14:
         return  [7,7]
-    coins = change(amount-5)
-    coins.append(5)
+    if amount % 7 == 0:
+        coins = change(amount-7)
+        coins.append(7)
+    else:
+        coins = change(amount-5)
+        coins.append(5)
     return coins
     
 #print(change(998))
