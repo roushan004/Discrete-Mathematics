@@ -3,3 +3,4 @@ The repository contains scripts made in acoordance with Coursera's Discrete Math
 
 All the scripts are arranged in their corresponding Course(number) folders.
 
+*Script for Sixteen_diagonals puzzle is Broken 
